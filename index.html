@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body">
+        <div class="searchBox">
+            <button class="searchBtn" id="search_Btn">🔍</button>
+            <input type="text" class="input" placeholder="Search Place">
+        </div>
+
+        <div class="main">
+            <div class="img">
+                <h3 class="placeName">Davangere</h3>
+                <img src="assets/sunny.jpg" alt="" class="weatherImg">
+                <h3 class="weatherStatus">Sunny</h3>
+                <p class="temp">26C</p>
+            </div>
+            <div class="details">
+                <div>
+                    <p>💧</p>   
+                    <div class="text">
+                        <p class="humidity">60%</p>
+                        <h4>Humidity</h4>
+                    </div>
+                </div>
+                <div>
+                    <p>💨</p>
+                    <div class="text">
+                        <p class="speed">4.55Km/H</p>
+                        <h4>Wind Speed</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="locationNotFound">
+            <img src="assets/Location_not_found.png" alt="">
+        </div>
+    </div>
+    <script src="keys.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
